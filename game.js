@@ -105,7 +105,7 @@ $(document).ready(function () {
 
       if (sequence[i] == 0) {
         setTimeout(function () {
-          $('.b-green').css('background-color', 'lightgreen');
+          $('.b-green').css('background-color', '#13ff7c');
           playSound(0);
         }, pt);
         setTimeout(function () {
@@ -113,7 +113,7 @@ $(document).ready(function () {
         }, rt);
       } else if (sequence[i] == 1) {
         setTimeout(function () {
-          $('.b-red').css('background-color', 'darkred');
+          $('.b-red').css('background-color', '#ff4c4c');
           playSound(1);
         }, pt);
         setTimeout(function () {
@@ -121,7 +121,7 @@ $(document).ready(function () {
         }, rt);
       } else if (sequence[i] == 2) {
         setTimeout(function () {
-          $('.b-yellow').css('background-color', 'lightyellow');
+          $('.b-yellow').css('background-color', '#fed93f');
           playSound(2);
         }, pt);
         setTimeout(function () {
@@ -129,7 +129,7 @@ $(document).ready(function () {
         }, rt);
       } else if (sequence[i] == 3) {
         setTimeout(function () {
-          $('.b-blue').css('background-color', 'lightblue');
+          $('.b-blue').css('background-color', '#1c8cff');
           playSound(3);
         }, pt);
         setTimeout(function () {
