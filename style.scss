@@ -1,0 +1,221 @@
+$pane-width: 220px;
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  text-align: center;
+  margin: auto;
+  top: 10px;
+
+  .box {
+    padding: 0;
+    position: relative;
+    margin: auto;
+    //top: 10vh;
+    //left: 10vw;
+
+
+    .block {
+      width: 220px;
+      height: 220px;
+      position: relative;
+      border: 12px solid black;
+      display: inline-block;
+      font-size: 16px;
+      pointer-events: none;
+    }
+
+    .up {
+      position: relative;
+      font-size: 0;
+
+
+      .b-green {
+        @extend .block;
+
+        border-top-left-radius: 100%;
+        background-color: #00a74a;
+      }
+
+      .b-red {
+        @extend .block;
+        border-top-right-radius: 100%;
+        background-color: #9f0f17;
+      }
+    }
+
+    .down {
+      font-size: 0;
+
+      .b-yellow {
+        @extend .block;
+        border-bottom-left-radius: 100%;
+        background-color: #cca707;
+      }
+
+      .b-blue {
+        @extend .block;
+        border-bottom-right-radius: 100%;
+        background-color: #094a8f;
+      }
+    }
+
+
+
+
+  }
+
+
+  .pane {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    background-color: silver;
+    margin: -120px 0 0 -120px;
+    border: 12px solid black;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+
+    .band {
+      margin-top: 30px;
+      font-size: 30px;
+    }
+
+    .btns {
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      .show {
+        display: inline-block;
+        //display: table-cell;
+        //vertical-align: middle;
+        width: 60px;
+
+        position: relative;
+        margin: auto;
+        text-align: center;
+
+        .count-show {
+          //position: relative;
+          display: inline-block;
+          text-align: center;
+          margin: auto;
+          padding: 0;
+          width: 60px;
+          //height: 30px;
+          border-radius: 20%;
+          background-color: black;
+          color: red;
+        }
+
+        .count-hide {
+          color: black;
+        }
+
+
+        .count-text {
+          font-size: 0.8em;
+        }
+      }
+
+      .start {
+        width: 60px;
+        position: relative;
+        display: inline-block;
+
+        .start-btn {
+          position: relative;
+          margin: auto;
+          border-radius: 100%;
+          width: 15px;
+          height: 15px;
+          background-color: red;
+          border: 3px black solid;
+        }
+
+        .start-text {
+
+        }
+      }
+
+      .strict {
+        width: 60px;
+        position: relative;
+        display: inline-block;
+
+        .strict-light {
+          position: absolute;
+          margin: auto;
+          top: -12px;
+          left: 26px;
+          width: 5px;
+          height: 5px;
+          border-radius: 100%;
+          background-color: black;
+          border: 2px solid black;
+        }
+
+        .strict-btn {
+          position: relative;
+          margin: auto;
+          width: 15px;
+          height: 15px;
+          background-color: yellow;
+          border: 3px solid black;
+          border-radius: 100%;
+        }
+      }
+
+    }
+
+    .onoff {
+      position: relative;
+      height: 30px;
+      margin: auto;
+
+      .off {
+        display: inline-block;
+        margin: 0 1px;
+      }
+
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 12px;
+        margin: 0 1px;
+        background-color: black;
+        //border: 1px solid black;
+
+        .switch-btn-on {
+          position: absolute;
+          display: inline-block;
+          width: 20px;
+          height: 12px;
+          background-color: lightblue;
+        }
+
+        .switch-btn-off {
+
+          position: absolute;
+          display: inline-block;
+          width: 20px;
+          height: 12px;
+          left: 0;
+          background-color: lightblue;
+        }
+      }
+
+      .on {
+        display: inline-block;
+        margin: 0 1px;
+      }
+    }
+  }
+
+}
+

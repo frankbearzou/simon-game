@@ -1,0 +1,140 @@
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  text-align: center;
+  margin: auto;
+  top: 10px; }
+  .container .box {
+    padding: 0;
+    position: relative;
+    margin: auto; }
+    .container .box .block, .container .box .up .b-green, .container .box .up .b-red, .container .box .down .b-yellow, .container .box .down .b-blue {
+      width: 220px;
+      height: 220px;
+      position: relative;
+      border: 12px solid black;
+      display: inline-block;
+      font-size: 16px;
+      pointer-events: none; }
+    .container .box .up {
+      position: relative;
+      font-size: 0; }
+      .container .box .up .b-green {
+        border-top-left-radius: 100%;
+        background-color: #00a74a; }
+      .container .box .up .b-red {
+        border-top-right-radius: 100%;
+        background-color: #9f0f17; }
+    .container .box .down {
+      font-size: 0; }
+      .container .box .down .b-yellow {
+        border-bottom-left-radius: 100%;
+        background-color: #cca707; }
+      .container .box .down .b-blue {
+        border-bottom-right-radius: 100%;
+        background-color: #094a8f; }
+  .container .pane {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    background-color: #ece7ee;
+    margin: -120px 0 0 -120px;
+    border: 12px solid black;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%; }
+    .container .pane .band {
+      margin-top: 30px;
+      font-size: 30px; }
+    .container .pane .btns {
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%; }
+      .container .pane .btns .show {
+        display: inline-block;
+        width: 60px;
+        position: relative;
+        margin: auto;
+        text-align: center; }
+        .container .pane .btns .show .count-show {
+          display: inline-block;
+          text-align: center;
+          margin: auto;
+          padding: 0;
+          width: 60px;
+          border-radius: 20%;
+          background-color: black;
+          color: red; }
+        .container .pane .btns .show .count-hide {
+          color: black; }
+        .container .pane .btns .show .count-text {
+          font-size: 0.8em; }
+      .container .pane .btns .start {
+        width: 60px;
+        position: relative;
+        display: inline-block; }
+        .container .pane .btns .start .start-btn {
+          position: relative;
+          margin: auto;
+          border-radius: 100%;
+          width: 15px;
+          height: 15px;
+          background-color: red;
+          border: 3px black solid; }
+      .container .pane .btns .strict {
+        width: 60px;
+        position: relative;
+        display: inline-block; }
+        .container .pane .btns .strict .strict-light {
+          position: absolute;
+          margin: auto;
+          top: -12px;
+          left: 26px;
+          width: 5px;
+          height: 5px;
+          border-radius: 100%;
+          background-color: black;
+          border: 2px solid black; }
+        .container .pane .btns .strict .strict-btn {
+          position: relative;
+          margin: auto;
+          width: 15px;
+          height: 15px;
+          background-color: yellow;
+          border: 3px solid black;
+          border-radius: 100%; }
+    .container .pane .onoff {
+      position: relative;
+      height: 30px;
+      margin: auto; }
+      .container .pane .onoff .off {
+        display: inline-block;
+        margin: 0 1px; }
+      .container .pane .onoff .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 12px;
+        margin: 0 1px;
+        background-color: black; }
+        .container .pane .onoff .switch .switch-btn-on {
+          position: absolute;
+          display: inline-block;
+          width: 20px;
+          height: 12px;
+          background-color: #3193de; }
+        .container .pane .onoff .switch .switch-btn-off {
+          position: absolute;
+          display: inline-block;
+          width: 20px;
+          height: 12px;
+          left: 0;
+          background-color: #3193de; }
+      .container .pane .onoff .on {
+        display: inline-block;
+        margin: 0 1px; }
+
+/*# sourceMappingURL=style.css.map */
