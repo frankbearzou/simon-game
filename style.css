@@ -1,3 +1,6 @@
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png"); }
+
 .container {
   position: relative;
   width: 500px;
@@ -5,7 +8,7 @@
   border-radius: 100%;
   text-align: center;
   margin: auto;
-  top: 10px; }
+  top: 100px; }
   .container .box {
     padding: 0;
     position: relative;
@@ -39,7 +42,7 @@
     width: 220px;
     height: 220px;
     position: absolute;
-    background-color: #ece7ee;
+    background-color: silver;
     margin: -120px 0 0 -120px;
     border: 12px solid black;
     border-radius: 100%;
@@ -125,14 +128,14 @@
           display: inline-block;
           width: 20px;
           height: 12px;
-          background-color: #3193de; }
+          background-color: lightblue; }
         .container .pane .onoff .switch .switch-btn-off {
           position: absolute;
           display: inline-block;
           width: 20px;
           height: 12px;
           left: 0;
-          background-color: #3193de; }
+          background-color: lightblue; }
       .container .pane .onoff .on {
         display: inline-block;
         margin: 0 1px; }

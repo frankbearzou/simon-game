@@ -1,5 +1,9 @@
 $pane-width: 220px;
 
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+}
+
 .container {
   position: relative;
   width: 500px;
@@ -7,7 +11,7 @@ $pane-width: 220px;
   border-radius: 100%;
   text-align: center;
   margin: auto;
-  top: 10px;
+  top: 100px;
 
   .box {
     padding: 0;

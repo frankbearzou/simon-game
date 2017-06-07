@@ -1,5 +1,13 @@
 # Simon Game
 Check [live demo](https://frankbearzou.github.io/simon-game/).
+
+## Game Introduction
+Simon is an electronic game testing memory skill.
+ The device creates a series of tones and lights and requires a user to repeat the series. 
+ If the user succeeds the series becomes progressively longer and more complex. 
+ Once the user fails, the game is over
+ [Wikipedia](https://en.wikipedia.org/wiki/Simon_(game)).
+
 ## User Stories
 - I am presented with a random series of button presses.
 - Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
